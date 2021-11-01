@@ -11,7 +11,7 @@ public class Test_Max<T extends Comparable<T>> {
         this.b = b;
         this.c = c;
     }
-
+//Determines the largest of 3 comparable object
     public void MaximumNumber() {
         if (a.compareTo(b) > 0 && a.compareTo(c) > 0) {
             System.out.println("Maximum number is :" + a);
