@@ -3,9 +3,10 @@ package com.bridgelab;
 public class Test_Max_Main {
     public static void main(String[] args){
         System.out.println("LET'S FIND THE MAXIMUM NUMBER");
-        Test_Max maxNo=new Test_Max(30,50,10);
-        Test_Max maxNoFloat=new Test_Max(30f,50f,10f);
-        maxNo.MaximumNumber();
-        maxNoFloat.MaximumNumber();
+        Test_Max <Integer> maxInt=new Test_Max<>(33, -55, 24);
+        Test_Max <Float> maxFloat=new Test_Max<>(3.3F, 4.5F, -3.2F);
+
+        maxInt.MaximumNumber();
+        maxFloat.MaximumNumber();
     }
 }
